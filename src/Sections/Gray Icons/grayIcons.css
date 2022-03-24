@@ -1,0 +1,29 @@
+.sub-cont{
+    /* background-color: whitesmoke; */
+    margin: 0.6rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 155px;
+    height: 155px;
+}
+.item{
+    width: 100px;
+    filter: grayscale(100%) ;
+    opacity: 0.8;
+}
+
+@media (max-width: 500px){
+    .card-holder-clients{
+      width: 100%;
+    }
+    .sub-cont{
+      height: 120px;
+      width: 120px;
+    }
+    .item {
+      width: 90px;
+    }
+  }
+  

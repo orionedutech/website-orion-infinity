@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  object-fit: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+:root {
+  --primary-cl: #0031ba;
+  --hover-cl: #ffaa46;
+  --section-title-cl: #2f4152;
+}
+.App {
+  height: 100vh;
+}
+.page-title {
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+.page-title h1 {
+  padding: 0.5rem;
+}
+
+.testimonials-card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.kno-more-btnn-cont {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+/* Utils */
+.fx {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.full-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* Design Sys */
+
+.section-container {
+  padding: 4rem 0;
+}
+.section-title-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+.section-title-line {
+  width: 10rem;
+  height: 4px;
+  background-color: #b7b7b7;
+  border: 0;
+  margin-right: 1.5rem;
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+  color: var(--section-title-cl);
+  max-width: 55%;
+}
+.p-text {
+  color: #596875;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.card-sub-title {
+  color: #2f4152;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  /* background-color: yellow; */
+}
+.card-holder-full {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  /* background-color: yellow; */
+}
+.card {
+  width: 15rem;
+  margin: 0.6rem;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: #00000040 0 8px 25px;
+}
+.only-card {
+  margin: 0.6rem;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: #00000040 0 8px 25px;
+}
+.card-landscape {
+  width: 30rem;
+  margin: 0.6rem;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: #00000040 0 8px 25px;
+}
+
+.card-bg-gray {
+  background-color: #e8e8e8;
+}
+.bg-gray-lite {
+  background-color: #fafafa;
+}
+.bg-apna-blue {
+  background-color: var(--primary-cl);
+  color: white;
+}
+@media (max-width: 580px) {
+  .card-landscape {
+    width: 15rem;
+    margin: 0.6rem;
+  }
+  .section-title-line {
+    width: 6rem;
+  }
+  .card-holder{
+    width: 90%;
+  }
+}
+
+.one-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.one-view-text-box {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: rgb(24, 23, 23);
+  margin: 1rem;
+}
+.banner-over-text {
+  font-size: 3rem;
+}
+
+/* //Utility */
+.cl-white {
+  color: white !important;
+}
+.bg-whsmoke {
+  background-color: whitesmoke;
+}
+.bg-white{
+  background-color: white;
+}
+.bg-apna-orange {
+  background-color: #fa8128;
+}
+
+.cl-orng-text {
+  color: #ffaa46;
+}

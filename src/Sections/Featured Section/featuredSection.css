@@ -1,0 +1,40 @@
+.playStoreLargeButton {
+  background-color: var(--primary-cl);
+  /* background-color: red; */
+  max-width: 15rem;
+  border-radius: 10px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 2.3rem;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.playStoreLargeButton:hover {
+  background-color: var(--hover-cl);
+}
+
+.playStoreBtnCont {
+  margin: 2rem 0;
+}
+.section-sub-title {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 500px) {
+  .section-sub-title {
+    margin: auto;
+    width: 80%;
+  }
+}
