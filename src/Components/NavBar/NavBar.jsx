@@ -1,3 +1,4 @@
+/* eslint-disable */
 import "./NavBar.css";
 import {OrangeButton} from '../Buttons/Buttons'
 import { useState, useEffect } from "react";

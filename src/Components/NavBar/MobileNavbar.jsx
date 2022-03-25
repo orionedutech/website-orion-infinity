@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {OrangeButton} from '../Buttons/Buttons'
 import "./MobileNavbar.css";
 import { useState } from 'react';

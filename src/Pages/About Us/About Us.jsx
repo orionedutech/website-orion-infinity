@@ -1,7 +1,7 @@
 import "./aboutUs.css";
 import { TextComponent } from "../../Sections";
 import { textdata, teamdata } from "./data";
-import { BigImageRight, AboutUsLeftData, AboutUsRightData } from "../../Sections";
+import {  AboutUsLeftData, AboutUsRightData } from "../../Sections";
 import { Team } from "../../Sections-Dumb";
 
 const AboutUs = () => {
