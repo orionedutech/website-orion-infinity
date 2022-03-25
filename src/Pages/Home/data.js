@@ -188,3 +188,48 @@ export const imageSectionData2 = {
   image: 'https://res.cloudinary.com/learnhat/image/upload/v1648198241/orion-new-website/orion-infinity/Our_Innovative_Workforce_copy_2x_ndxbtr.png',
   subTitle:'We are a firm believer in new thoughts and advanced workforce models. And this is the founding motto for Orion Infinity HR Solutions, wherein we deliver custom solutions to our clients for proven business results.'
 }
+
+export const formsData = [
+  {
+      id:1,
+      image:'https://res.cloudinary.com/learnhat/image/upload/v1641207043/orion-new-website/iStock-1127921799_efated.jpg',
+      title:'What We Do',
+      description:'We are a firm believer in new thoughts and advanced workforce models. And this is the founding motto for Orion Infinity HR Solutions, wherein we deliver custom solutions to our clients for proven business results.'
+      
+  },
+  {   
+      id:2,
+      image:'https://res.cloudinary.com/learnhat/image/upload/v1641207042/orion-new-website/iStock-639819378_nsqhxt.jpg',
+      title:'Our Process',
+      description:'We are a firm believer in new thoughts and advanced workforce models. And this is the founding motto for Orion Infinity HR Solutions, wherein we deliver custom solutions to our clients for proven business results.'
+  },
+]
+
+export const numbersData = [
+  {
+    number: "3,000+",
+    name: "Students sent Abroad",
+  },
+  {
+    number: "5,00,000+",
+    name: "Students community",
+  },
+  {
+    number: "100+",
+    name: "Skilling centers",
+  },
+
+  {
+    number: "800+",
+    name: "Universities partnered with",
+  },
+
+  {
+    number: "3000+",
+    name: "Corporrate tie-ups for Students placement",
+  },
+  // {
+  //   number: "2800+",
+  //   name: "Study Abroad Students",
+  // },
+];
