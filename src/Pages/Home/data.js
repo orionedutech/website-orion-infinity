@@ -179,3 +179,12 @@ export const contact_data = [
   //     "Plot No 39, 3rd floor, Bapu Bagh Colony Prendergast Road, Secunderabad",
   // },
 ];
+
+export const imageSectionData1 = {
+  image: 'https://res.cloudinary.com/learnhat/image/upload/v1648198229/orion-new-website/orion-infinity/End_to_end_copy_2x_ershoi.png',
+  subTitle:'Orion Infinity HR Solutions providesavast array of HR Solutions that take your Organization one-notch up.'
+}
+export const imageSectionData2 = {
+  image: 'https://res.cloudinary.com/learnhat/image/upload/v1648198241/orion-new-website/orion-infinity/Our_Innovative_Workforce_copy_2x_ndxbtr.png',
+  subTitle:'We are a firm believer in new thoughts and advanced workforce models. And this is the founding motto for Orion Infinity HR Solutions, wherein we deliver custom solutions to our clients for proven business results.'
+}

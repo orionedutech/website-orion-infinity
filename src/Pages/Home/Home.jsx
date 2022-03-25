@@ -1,12 +1,15 @@
 import "./Home.css";
 import { ButtonKnowMoreHero } from "../../Components/Buttons/Buttons";
-import { GrayIcons, BlueIcons, FeaturedSection, TestimonialsSection, ContactSection } from "../../Sections";
+import { GrayIcons, BlueIcons, FeaturedSection, TestimonialsSection, ContactSection, BigImageRight } from "../../Sections";
+import { BigImageRightSection1 } from "../../Sections-Dumb";
 import {
   homePageClientsAndPartners,
   keysector_icons,
   featuredCourses,
   testimonialsData,
-  contact_data
+  contact_data,
+  imageSectionData1,
+  imageSectionData2
 } from "./data";
 
 const Home = () => {
@@ -24,6 +27,8 @@ const Home = () => {
         </div>
       </div>
 
+      <BigImageRight subTitle={imageSectionData1.subTitle} image={'bg-one'} title={"End-To-End Human Resource Solutions"} btn />
+      <BigImageRightSection1 subTitle={imageSectionData2.subTitle} image={'bg-two'} title={"Our Innovative Workforce Solutions"}  />
       <BlueIcons dataIcons={keysector_icons} title={"Staffing & Recruitment"} />
 
       <FeaturedSection

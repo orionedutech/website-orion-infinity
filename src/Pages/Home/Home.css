@@ -59,7 +59,7 @@
 }
 @media (max-width: 500px) {
   .home {
-    height: 50vh;
+    height: 45vh;
     /* background-size: 100% 100%; */
     background-repeat: no-repeat;
     background-position: 0% 20%;
@@ -109,4 +109,15 @@
     line-height: 3.3rem;
     font-weight: 500;
   }
+}
+
+
+/* other bg images */
+.bg-one{
+  background-image: url(https://res.cloudinary.com/learnhat/image/upload/v1648198229/orion-new-website/orion-infinity/End_to_end_copy_2x_ershoi.png);
+  height: 50vh;
+}
+.bg-two{
+  background-image: url(https://res.cloudinary.com/learnhat/image/upload/v1648198241/orion-new-website/orion-infinity/Our_Innovative_Workforce_copy_2x_ndxbtr.png);
+  height: 50vh;
 }

@@ -1,0 +1,38 @@
+.big-right-image {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sub-cont-right {
+  width: 35%;
+}
+.image-subt {
+  /* color: white; */
+  margin-left: 11rem;
+}
+
+.btn-cont-images {
+  margin-left: 11rem;
+  margin-top: 2.5rem;
+}
+@media (max-width: 1000px) {
+  .sub-cont-right {
+    width: 60%;
+  }
+}
+@media (max-width: 500px) {
+  .sub-cont-right {
+    width: 100%;
+  }
+  .image-subt {
+    margin-left: 7rem;
+  }
+
+  .btn-cont-images {
+    margin-left: 7rem;
+  }
+  .big-right-image{
+
+  }
+}
