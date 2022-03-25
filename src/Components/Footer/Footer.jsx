@@ -1,5 +1,6 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import logo from '../../logo.jpg'
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="footer-box box-1">
           <img
             className="footer-logo"
-            src="https://res.cloudinary.com/learnhat/image/upload/v1641191551/orion-new-website/logo_new_main_q47dby.jpg"
+            src={logo}
             alt=""
           />
           <div className="sub-content-box-icons">
@@ -41,18 +42,6 @@ const Footer = () => {
               <i class="fab fa-youtube"></i>
             </a>
           </div>
-          <div className="logo-contn">
-            <img
-              className="logo-skill-india"
-              src="https://res.cloudinary.com/learnhat/image/upload/v1640674377/orion-new-website/unnamed_White_tpwamo.png"
-              alt=""
-            />
-            <img
-              className="logo-nsdc"
-              src="https://res.cloudinary.com/learnhat/image/upload/v1640674377/orion-new-website/unnamed_White_2_ieeav9.png"
-              alt=""
-            />
-          </div>
         </div>
         <div className="footer-box box-2">
         <div className="sub-content-box">
@@ -81,20 +70,7 @@ const Footer = () => {
             </a>
           </div>
           
-          <div className="sub-content-box">
-            <h5>About Us</h5>
-            <a rel="noreferrer" href="https://orionedutech.in/about-us">
-              {" "}
-              <p>Company Profile</p>
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/about-us/awards-and-recognition"
-            >
-              {" "}
-              <p>Award & Recognition</p>
-            </a>
-          </div>
+         
           
           
         </div>
@@ -130,25 +106,8 @@ const Footer = () => {
               <p>Nursing Job (Germany)</p>
             </a>
           </div>
-          <div className="sub-content-box">
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/corporate-social-responsibility"
-            >
-              {" "}
-              <p>Corporate Social Responsibility</p>
-            </a>
-          </div>
-          <div className="sub-content-box">
-            <h5>Other Links</h5>
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/students-testimonials"
-            >
-              {" "}
-              <p>Student Testimonials</p>
-            </a>
-          </div>
+          
+         
         </div>
         <div className="footer-box box-4">
           <div className="sub-content-box">
@@ -163,19 +122,7 @@ const Footer = () => {
             <h5>Email</h5>
             <p>info@orionedutech.com</p>
           </div>
-          <div className="logo-contn">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://play.google.com/store/apps/details?id=com.learnhath.OrionEdutech"
-            >
-              <img
-                className="logo-pstore"
-                src="https://cdn.worldvectorlogo.com/logos/get-it-on-google-play.svg"
-                alt=""
-              />
-            </a>
-          </div>
+         
         </div>
       </footer>
       <div className="footer-bar-cont">

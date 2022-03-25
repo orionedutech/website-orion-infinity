@@ -3,7 +3,7 @@
     margin: 2rem;
 }
 .ls-card-text-cont{
-    padding: 1.5rem;
+    padding: 1.5rem 4rem;
     text-align: center;
 }
 .cont-dev-card-img-cont img {
@@ -22,6 +22,9 @@
     .card-ls-abt-us{
       width: auto;
     }
+    .ls-card-text-cont{
+      padding: 1.5rem;
+  }
   }
   
 

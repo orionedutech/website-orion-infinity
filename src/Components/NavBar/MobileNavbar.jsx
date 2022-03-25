@@ -44,74 +44,14 @@ import {aboutUs, ourPrograms, ourServices} from './data'
             <Link to="/">Home</Link>
           </li>
 
-          <li
-            onClick={handleChangeAboutUs}
-            className="nav-item-m nav-item-icon-cont"
-          >
-            About Us
-            {aboutUsSubMenuDisplay ? (
-              <i className="fas fa-chevron-up"></i>
-            ) : (
-              <i className="fas fa-chevron-down"></i>
-            )}
-          </li>
-          <SubMenu
-            subMenuDisplay={aboutUsSubMenuDisplay}
-            handleReset={handleReset}
-            data={aboutUs}
-            handleMobileMenuActive={handleMobileMenuActive}
-          />
-
-          <li
-            onClick={handleChangeOurServices}
-            className="nav-item-m nav-item-icon-cont"
-          >
-            Our Services
-            {ourServicesSubMenuDisplay ? (
-              <i className="fas fa-chevron-up"></i>
-            ) : (
-              <i className="fas fa-chevron-down"></i>
-            )}
-          </li>
-          <SubMenu
-            subMenuDisplay={ourServicesSubMenuDisplay}
-            handleReset={handleReset}
-            data={ourServices}
-            handleMobileMenuActive={handleMobileMenuActive}
-          />
-
-          <li
-            onClick={handleChangeOurPrograms}
-            className="nav-item-m nav-item-icon-cont"
-          >
-            Our Programs
-            {ourProgramsSubMenuDisplay ? (
-              <i className="fas fa-chevron-up"></i>
-            ) : (
-              <i className="fas fa-chevron-down"></i>
-            )}
-          </li>
-          <SubMenu
-            subMenuDisplay={ourProgramsSubMenuDisplay}
-            handleReset={handleReset}
-            data={ourPrograms}
-            handleMobileMenuActive={handleMobileMenuActive}
-          />
+        
           <li onClick={handleMobileMenuActive} className="nav-item-m">
-            <a 
-              rel="noreferrer" href="https://orionedutech.in/corporate-social-responsibility">CSR</a>
+            <Link to="/about-us">About Us</Link>
           </li>
           <li onClick={handleMobileMenuActive} className="nav-item-m">
             <Link to="/contact-us">Contact Us</Link>
           </li>
-          <a
-            className="nav-item-m"
-            target="_blank"
-            rel="noreferrer"
-            href="https://play.google.com/store/apps/details?id=com.learnhath.OrionEdutech"
-          >
-            <OrangeButton text="Download App" />
-          </a>
+          
         </ul>
       </div>
     </div>

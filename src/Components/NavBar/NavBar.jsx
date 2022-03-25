@@ -2,7 +2,8 @@ import "./NavBar.css";
 import {OrangeButton} from '../Buttons/Buttons'
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import {aboutUs, ourPrograms, ourServices} from './data'
+import {aboutUs, ourPrograms, ourServices} from './data';
+import logo from '../../logo.jpg'
 
 
 const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
@@ -42,7 +43,7 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
         <Link to="/">
           <img
             className="nav-cont"
-            src="https://res.cloudinary.com/learnhat/image/upload/v1641191551/orion-new-website/logo_new_main_q47dby.jpg"
+            src={logo}
             alt="orion-logo"
           />
         </Link>
@@ -52,76 +53,20 @@ const NavBar = ({ mobileMenuActive, handleMobileMenuActive }) => {
           <li className="nav-item tab-hide">
             <Link to="/">Home</Link>
           </li>
-          <li
-            className="nav-item tab-hide"
-            onMouseOver={handleChangeAboutUs}
-            onMouseOut={handleChangeAboutUs}
-          >
-            {/* <Link
-              to="/about-us"
-            > */}
-            About us
-            {/* </Link> */}
-            <SubMenu
-              subMenuDisplay={aboutUsSubMenuDisplay}
-              handleReset={handleReset}
-              left={"40%"}
-              data={aboutUs}
-            />
-          </li>
-          <li
-            className="nav-item"
-            onMouseOver={handleChangeOurServices}
-            onMouseOut={handleChangeOurServices}
-          >
-            {/* <a
-              target="_blank"
-              rel="noreferrer"
-              href="http://www.orioncorporate.com/"
-            > */}
-            Our Services
-            {/* </a> */}
-            <SubMenu
-              subMenuDisplay={ourServicesSubMenuDisplay}
-              handleReset={handleReset}
-              left={"47%"}
-              data={ourServices}
-            />
-          </li>
-          <li
-            className="nav-item"
-            onMouseOver={handleChangeOurPrograms}
-            onMouseOut={handleChangeOurPrograms}
-          >
-            {/* <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.orionedutech.com/govt_project.php"
-            > */}
-            Our Programs
-            {/* </a> */}
-            <SubMenu
-              subMenuDisplay={ourProgramsSubMenuDisplay}
-              handleReset={handleReset}
-              left={"55%"}
-              data={ourPrograms}
-            />
-          </li>
-          <li className="nav-item">
-            <a 
-              rel="noreferrer" href="https://orionedutech.in/corporate-social-responsibility">CSR</a>
-          </li>
           
+          <li className="nav-item tab-hide">
+            <Link to="/about-us">About Us</Link>
+          </li>
           <li className="nav-item tab-hide">
             <Link to="/contact-us">Contact Us</Link>
           </li>
-          <a
+          {/* <a
             target="_blank"
             rel="noreferrer"
             href="https://play.google.com/store/apps/details?id=com.learnhath.OrionEdutech"
           >
             <OrangeButton text="Download App" login />
-          </a>
+          </a> */}
         </ul>
       </div>
       <button className="menu-btn" onClick={handleMobileMenuActive}>
@@ -150,3 +95,66 @@ const SubMenu = ({ subMenuDisplay, handleReset, left, data }) => {
     </div>
   );
 };
+
+
+
+
+// <li
+//             className="nav-item tab-hide"
+//             onMouseOver={handleChangeAboutUs}
+//             onMouseOut={handleChangeAboutUs}
+//           >
+//             {/* <Link
+//               to="/about-us"
+//             > */}
+//             About us
+//             {/* </Link> */}
+//             <SubMenu
+//               subMenuDisplay={aboutUsSubMenuDisplay}
+//               handleReset={handleReset}
+//               left={"40%"}
+//               data={aboutUs}
+//             />
+//           </li>
+//           <li
+//             className="nav-item"
+//             onMouseOver={handleChangeOurServices}
+//             onMouseOut={handleChangeOurServices}
+//           >
+//             {/* <a
+//               target="_blank"
+//               rel="noreferrer"
+//               href="http://www.orioncorporate.com/"
+//             > */}
+//             Our Services
+//             {/* </a> */}
+//             <SubMenu
+//               subMenuDisplay={ourServicesSubMenuDisplay}
+//               handleReset={handleReset}
+//               left={"47%"}
+//               data={ourServices}
+//             />
+//           </li>
+//           <li
+//             className="nav-item"
+//             onMouseOver={handleChangeOurPrograms}
+//             onMouseOut={handleChangeOurPrograms}
+//           >
+//             {/* <a
+//               target="_blank"
+//               rel="noreferrer"
+//               href="https://www.orionedutech.com/govt_project.php"
+//             > */}
+//             Our Programs
+//             {/* </a> */}
+//             <SubMenu
+//               subMenuDisplay={ourProgramsSubMenuDisplay}
+//               handleReset={handleReset}
+//               left={"55%"}
+//               data={ourPrograms}
+//             />
+//           </li>
+//           <li className="nav-item">
+//             <a 
+//               rel="noreferrer" href="https://orionedutech.in/corporate-social-responsibility">CSR</a>
+//           </li>

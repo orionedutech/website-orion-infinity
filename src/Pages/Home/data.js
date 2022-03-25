@@ -193,15 +193,18 @@ export const formsData = [
   {
       id:1,
       image:'https://res.cloudinary.com/learnhat/image/upload/v1641207043/orion-new-website/iStock-1127921799_efated.jpg',
-      title:'What We Do',
-      description:'We are a firm believer in new thoughts and advanced workforce models. And this is the founding motto for Orion Infinity HR Solutions, wherein we deliver custom solutions to our clients for proven business results.'
+      title:'Find your perfect job with us',
+      description: "Send us your CV and details, and get started with finding your perfect next job.",
+      buttonText:'Apply Now'
       
   },
   {   
       id:2,
       image:'https://res.cloudinary.com/learnhat/image/upload/v1641207042/orion-new-website/iStock-639819378_nsqhxt.jpg',
-      title:'Our Process',
-      description:'We are a firm believer in new thoughts and advanced workforce models. And this is the founding motto for Orion Infinity HR Solutions, wherein we deliver custom solutions to our clients for proven business results.'
+      title:'Get the perfect HR solution for your company',
+      description:'We provide incredible, tailor-made staffing & manpower solutions for our customers',
+      buttonText:'Connect with Us'
+
   },
 ]
 

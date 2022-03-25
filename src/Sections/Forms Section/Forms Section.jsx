@@ -23,10 +23,11 @@ const FormsSection = ({ data, title }) => {
                 <img src={item.image} alt="" />
               </div>
               <div className="ls-card-text-cont">
+                <h2 style={{ padding: "1.5rem" }} >{item.title}</h2>
                 <p className="p-text">{item.description}</p>
                 <div style={{ margin: "1.5rem" }}>
                   <OrangeButtonLarge
-                    text="View"
+                    text={item.buttonText}
                     clickFunc={() => setFormDisplay(item.id)}
                   />
                 </div>
@@ -54,7 +55,7 @@ const FormDisplayComponent = ({ formDisplay }) => {
 const FormJob = () => {
   const [status, setStatus] = useState(false);
   const baseUrl =
-    "https://orionedutech.co.in/apis/learnhat_two/Orioninfinity/orioninfinityCompanyFromSubmit";
+    "https://orionedutech.co.in/apis/learnhat_two/Orioninfinity/orionInfinityJobFromSubmit";
   const [name, setName] = useState("");
   const [useremail, setUseremail] = useState("");
   const [userphone, setUserphone] = useState("");
@@ -63,23 +64,24 @@ const FormJob = () => {
   const [resume, setResume] = useState(null);
 
   const handleSubmit = async () => {
-    // try {
-    //   const response = await axios.post(
-    //     `${baseUrl}`,
-    //     JSON.stringify({
-    //       namefcompany: name,
-    //       namefrepresentative: useremail,
-    //       designationfrepresentative: userphone,
-    //       fromemail: city,
-    //       fromphonenumber: course,
-    //     })
-    //   );
-    //   if (response.data.emailSend) {
-    //     setStatus(true);
-    //   }
-    // } catch (error) {
-    //   console.log(error);
-    // }
+    try {
+      const response = await axios.post(
+        `${baseUrl}`,
+        JSON.stringify({
+            fromName: name,
+            fromEmail: useremail,
+            fromPhone: userphone,
+            fromSector: sector,
+            fromPreviousjobrole: previousJobRole,
+            andfromAttachedCV : 'here'
+        })
+      );
+      if (response.data.emailSend) {
+        setStatus(true);
+      }
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return status ? (
