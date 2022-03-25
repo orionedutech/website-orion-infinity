@@ -1,113 +1,44 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import logo from '../../logo.jpg'
+import logo from "../../logo.jpg";
 
 const Footer = () => {
   return (
     <div className="bg-apna-blue">
       <footer className="bg-apna-blue">
         <div className="footer-box box-1">
-          <img
-            className="footer-logo"
-            src={logo}
-            alt=""
-          />
-          <div className="sub-content-box-icons">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.facebook.com/OrionEdutech123"
-            >
-              <i class="fab fa-facebook-f fab-special"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.linkedin.com/company/orion-edutech-pvt-ltd/ "
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://twitter.com/Orionedutech123"
-            >
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.youtube.com/channel/UCyu7fWw8L_FaRonKMgVu8-w"
-            >
-              <i class="fab fa-youtube"></i>
-            </a>
-          </div>
+          <img className="footer-logo" src={logo} alt="" />
         </div>
         <div className="footer-box box-2">
-        <div className="sub-content-box">
-            <h5>Our Services</h5>
+          <div className="sub-content-box">
+            <h5>Orion Infinity</h5>
             <Link to="/">
               {" "}
-              <p>Staffing - Corporate Alliance</p>
+              <p>About Us</p>
             </Link>
-            <a rel="noreferrer" href="https://orionedutech.in/study-abroad">
+            <Link to="/">
               {" "}
-              <p>Study Abroad</p>
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/content-development"
-            >
-              {" "}
-              <p>Content Development</p>
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/international-business"
-            >
-              {" "}
-              <p>International Business</p>
-            </a>
+              <p>Contact Us</p>
+            </Link>
           </div>
-          
-         
-          
-          
         </div>
         <div className="footer-box box-3">
           <div className="sub-content-box">
             <h5>Our Programs</h5>
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/skill-development"
-            >
+
+            <Link to="/terms-and-conditions">
               {" "}
-              <p>Skill Development</p>
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/foreign-internship"
-            >
+              <p>Terms & Conditions</p>{" "}
+            </Link>
+            <Link to="/refund-policy">
               {" "}
-              <p>Foreign Internship</p>
-            </a>
-            <a
-              rel="noreferrer"
-              href="https://orionedutech.in/international-schooling"
-            >
+              <p>Refund Policy</p>{" "}
+            </Link>
+            <Link to="/privacy-policy">
               {" "}
-              <p>International Schooling</p>
-            </a>
-            <a
-              rel="noreferrer"
-              href="/"
-            >
-              {" "}
-              <p>Nursing Job (Germany)</p>
-            </a>
+              <p>Privacy Policy</p>{" "}
+            </Link>
           </div>
-          
-         
         </div>
         <div className="footer-box box-4">
           <div className="sub-content-box">
@@ -118,11 +49,6 @@ const Footer = () => {
               West Bengal - 700157{" "}
             </p>
           </div>
-          <div className="sub-content-box">
-            <h5>Email</h5>
-            <p>info@orionedutech.com</p>
-          </div>
-         
         </div>
       </footer>
       <div className="footer-bar-cont">

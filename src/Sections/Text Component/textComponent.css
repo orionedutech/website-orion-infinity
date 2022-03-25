@@ -1,0 +1,16 @@
+.company-text-box {
+    max-width: 60%;
+    text-align: center;
+  }
+  .comp-text {
+    margin: 1rem 0;
+  }
+  .titleDesc{
+      font-weight: 400;
+      margin-bottom: 1rem;
+  }
+  .btn-cont-center{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+  }

@@ -1,0 +1,22 @@
+.big-right-image-ulta{
+    align-items: flex-end;
+}
+.section-title-cont-right{
+    flex-direction: row-reverse;
+}
+.section-title{
+    margin-right: 0.5rem;
+}
+.image-subt-right{
+    margin-right: 7rem;
+    margin-left: 2rem;
+    /* width: 50%; */
+}
+.section-title-line-big{
+    width: 16rem;
+}
+@media (max-width: 500px) {
+    .section-title-line-big{
+        width: 6rem;
+    }
+  }

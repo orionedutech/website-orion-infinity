@@ -1,0 +1,78 @@
+/* Top banner */
+
+.hero-csr {
+  width: 100%;
+  height: 90vh;
+  background-image: url("https://res.cloudinary.com/learnhat/image/upload/v1648215921/orion-new-website/orion-infinity/About_Us_Banner_copy_2x_lihels.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 100% 100%; */
+  /* opacity: 0.8; */
+}
+.hero-csr .overlay-bg {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(59, 58, 58, 0.438); */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.overlay-bg h1 {
+  font-size: 3.5rem;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+.overlay-bg h3 {
+  font-size: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 400;
+}
+.overlay-bg {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 500px) {
+  .hero-csr {
+    height: 35vh;
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-position: 0% 20%;
+    background-position: center;
+  }
+  .overlay-bg h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 850px) {
+  .hero-csr {
+    height: 50vh;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+/* other banners */
+.bg-mission {
+  background-image: url("https://res.cloudinary.com/learnhat/image/upload/v1648218603/orion-new-website/orion-infinity/about-us-images/Mission_copy_o9cohw.jpg");
+  height: 60vh;
+}
+.bg-vision {
+  background-image: url("https://res.cloudinary.com/learnhat/image/upload/v1648218603/orion-new-website/orion-infinity/about-us-images/Vision_copy_anjyat.jpg");
+  height: 60vh;
+}
+.bg-values {
+  background-image: url("https://res.cloudinary.com/learnhat/image/upload/v1648218603/orion-new-website/orion-infinity/about-us-images/Value_copy_dgxz6y.jpg");
+  height: 60vh;
+}
+.bg-innovation {
+  background-image: url("https://res.cloudinary.com/learnhat/image/upload/v1648218603/orion-new-website/orion-infinity/about-us-images/Innovation_copy_kbhckr.jpg");
+  height: 60vh;
+}
