@@ -25,18 +25,19 @@ const FormsSection = ({ data, title }) => {
               <div className="ls-card-text-cont">
                 <h2  className="title-xlrage" >{item.title}</h2>
                 <p className="p-text">{item.description}</p>
-                <div className="some-bt-cont">
+                <div className="some-bt-cont" >
+                <a href={`#${item.id}`} >
                   <OrangeButtonLarge
                     text={item.buttonText}
-                    clickFunc={() => setFormDisplay(item.id)}
                   />
+                </a>
                 </div>
               </div>
             </div>
           );
         })}
       </div>
-      <FormDisplayComponent formDisplay={formDisplay} />
+      {/* <FormDisplayComponent formDisplay={formDisplay} /> */}
     </div>
   );
 };
@@ -52,7 +53,7 @@ const FormDisplayComponent = ({ formDisplay }) => {
   );
 };
 /* eslint-disable */
-const FormJob = () => {
+export   const FormJob = () => {
   const [status, setStatus] = useState(false);
   const baseUrl =
     "https://orionedutech.co.in/apis/learnhat_two/Orioninfinity/orionInfinityJobFromSubmit";
@@ -152,7 +153,7 @@ const FormJob = () => {
     </div>
   );
 };
-const FormCompany = () => {
+export const FormCompany = () => {
   const [status, setStatus] = useState(false);
   const baseUrl =
     "https://orionedutech.co.in/apis/learnhat_two/Orioninfinity/orioninfinityCompanyFromSubmit";

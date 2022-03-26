@@ -35,7 +35,7 @@ const NumberStatsDisplay = ({ mode, data }) => {
 
       {mode === 'light' && (
         <div className="kno-more-btnn-cont">
-          <a href="#9">
+          <a href="#11">
             <OrangeButtonLarge text={"Know More"} />
           </a>
         </div>

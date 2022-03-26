@@ -28,7 +28,7 @@ const FeaturedSection = ({ title, data, subTitle, alsoButton }) => {
       </div> */}
       {alsoButton && (
         <div className="kno-more-btnn-cont">
-          <a href="#9">
+          <a href="#11">
             <OrangeButtonLarge text={"Discover more"} />
           </a>
         </div>

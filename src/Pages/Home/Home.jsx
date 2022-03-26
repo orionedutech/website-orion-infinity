@@ -9,9 +9,9 @@ import {
   ContactSection,
   BigImageRight,
   FormsSection,
-  NumberStatsDisplay
+  NumberStatsDisplay,
 } from "../../Sections";
-import { BigImageRightSection1 } from "../../Sections-Dumb";
+import { BigImageRightSection1, FormSubSection } from "../../Sections-Dumb";
 import {
   homePageClientsAndPartners,
   testimonialsData,
@@ -22,8 +22,7 @@ import {
   staffingAndRecuritment,
   datawhyChoseInfinityHRSolution,
   dataThanksforLettingUsServeYou,
-  dataSomeIndustryweExpertIn
-  
+  dataSomeIndustryweExpertIn,
 } from "./data";
 
 const Home = () => {
@@ -33,26 +32,28 @@ const Home = () => {
         <div className="home-data-subcont-right">
           <div className="inner-cont">
             <h2 className="hero-title-1">Orion Infinity HR Solutions</h2>
-            <h1 className="hero-title-2">meets all your HR, Recruitment and Manpower Needs!</h1>
+            <h1 className="hero-title-2">
+              meets all your HR, Recruitment and Manpower Needs!
+            </h1>
           </div>
-          <a className="main-href" href="#9">
+          <a className="main-href" href="#11">
             <ButtonKnowMoreHero text={"Discover more"} lgtext />
           </a>
         </div>
       </div>
-      <BigImageRightSection1
-        subTitle={imageSectionData2.subTitle}
-        image={"bg-two"}
-        title={"Our Innovative Workforce Solutions"}
-      />
+      <FormsSection title={"Forms"} data={formsData} />
+
       <BigImageRight
         subTitle={imageSectionData1.subTitle}
         image={"bg-one"}
         title={"End-To-End Human Resource Solutions"}
         btn
       />
-     
-      <BlueIcons dataIcons={staffingAndRecuritment} title={"Staffing & Recruitment"} />
+
+      <BlueIcons
+        dataIcons={staffingAndRecuritment}
+        title={"Staffing & Recruitment"}
+      />
       <FeaturedSection
         title={"Why Choose Orion Infinity HR Solutions?"}
         data={datawhyChoseInfinityHRSolution}
@@ -66,16 +67,15 @@ const Home = () => {
         logos={dataThanksforLettingUsServeYou}
         title={"Thank you for letting us serve you!"}
       />
-      <NumberStatsDisplay title={'Our Success'} data={numbersData} />
 
       <BlueIcons
         dataIcons={dataSomeIndustryweExpertIn}
         title={"Some of the industries we’re experts in"}
       />
-      <FormsSection title={"Forms"} data={formsData} />
+      <NumberStatsDisplay title={"Our Success"} data={numbersData} />
 
-
-     </>
+      <FormSubSection />
+    </>
   );
 };
 export default Home;

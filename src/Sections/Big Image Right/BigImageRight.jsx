@@ -14,7 +14,7 @@ const BigImageRight = ({ title, image, subTitle, btn }) => {
         <p className="image-subt cl-white">{subTitle}</p>
         {btn && (
           <div className="btn-cont-images">
-            <a href="#9">
+            <a href="#11">
               <OrangeButtonLarge text={"Connect with us"} />
             </a>
           </div>

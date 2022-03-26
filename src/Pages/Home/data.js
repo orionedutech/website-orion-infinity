@@ -149,7 +149,7 @@ export const imageSectionData2 = {
 
 export const formsData = [
   {
-    id: 1,
+    id: 11,
     image:
       "https://res.cloudinary.com/learnhat/image/upload/v1648295066/orion-new-website/orion-infinity/iStock-1293737085_vafyc9.jpg",
     title: "Find your perfect job with us",
@@ -158,7 +158,7 @@ export const formsData = [
     buttonText: "Apply Now",
   },
   {
-    id: 2,
+    id: 12,
     image:
       "https://res.cloudinary.com/learnhat/image/upload/v1648295067/orion-new-website/orion-infinity/iStock-882453070_dvvcje.jpg",
     title: "Get the perfect HR solution for your company",

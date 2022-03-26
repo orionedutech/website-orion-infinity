@@ -41,7 +41,9 @@ const TextComponent = ({ title, mode, data, textTitle, button }) => {
         })}
       </div>
       <div className="btn-cont-center" >
+        <a href="#11">
         <OrangeButtonLarge text="Let's Connect"/>
+        </a>
       </div>
     </div>
   );
