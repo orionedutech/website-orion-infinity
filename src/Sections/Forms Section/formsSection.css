@@ -3,8 +3,12 @@
     margin: 2rem;
 }
 .ls-card-text-cont{
-    padding: 1.5rem 4rem;
+    padding: 1.5rem ;
     text-align: center;
+}
+.title-xlrage{
+  font-size: 2rem;
+  line-height: 2.2REM;
 }
 .cont-dev-card-img-cont img {
     width: 100%;
@@ -26,6 +30,7 @@
       padding: 1.5rem;
   }
   }
+
   
 
   /* direct form */

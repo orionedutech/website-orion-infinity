@@ -1,115 +1,67 @@
+/* eslint-disable */
 export const homePageClientsAndPartners = [
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606816/lms-app/new-lms-website/clients/raymond-logo_ph4bul.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606816/lms-app/new-lms-website/clients/Tech_Mahindra_New_Logo.svg_qfol0q.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606816/lms-app/new-lms-website/clients/portea-logo_whkrgu.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/Novotel_Logo_bjrntp.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/LOreal-Emblem_v3oyvn.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/Nestle-Logo_b2zzmw.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/925643839s_wf96bc.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/2560px-Max_Healthcare_logo.svg_hf9qnc.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/download_srxhrn.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/bata-logo-png-transparent_skbtkn.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/HDFC_Bank_Logo.svg_iumyrb.png",
-    },
-    {
-      link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/Axis_Bank_logo_logotype_y3de8i.png",
-    },
-  ];
-
-  export const keysector_icons = [
-    
-    {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640588985/orion-new-website/key_sectors_icons/Healthcare_huxrtl.svg",
-       "name":"Healthcare",
-    },
-    {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589060/orion-new-website/key_sectors_icons/Retail_bf14f1.svg",
-       "name":"Retail",
-    },
-    {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589115/orion-new-website/key_sectors_icons/BFSI_mocoa0.svg",
-       "name":"BFSI",
-    },
-    {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589188/orion-new-website/key_sectors_icons/Logistics_h87dda.svg",
-       "name":"Logistics",
-    },
-    {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589283/orion-new-website/key_sectors_icons/Hospitality_oi0r8m.svg",
-       "name":"Hospitality",
-    },
-     {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589362/orion-new-website/key_sectors_icons/E-commerce_dhwrs4.svg",
-       "name":"E-Commerce",
-    },
-     {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589437/orion-new-website/key_sectors_icons/Manufacturing_dmklk9.svg",
-       "name":"Manufacturing",
-    },
-    {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589490/orion-new-website/key_sectors_icons/Construction_qghuug.svg",
-       "name":"Construction",
-    },
-     {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589543/orion-new-website/key_sectors_icons/Automobile_fsrpph.svg",
-       "name":"Automobile",
-    },
-     {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589593/orion-new-website/key_sectors_icons/IT_ITES_ejgejj.svg",
-       "name":"IT & ITeS",
-    },
-    {
-       "link":"https://res.cloudinary.com/learnhat/image/upload/v1640589632/orion-new-website/key_sectors_icons/Apparel_Textile_fkeigu.svg",
-       "name":"Apparel & Textile",
-    }
-]
-
- export const featuredCourses = [
   {
-    name:'Essentials Of Business Communication',
-    img:'https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/business_communication.jpg',
-    desc:'Learn to communicate confidently, smartly and efficiently to find success in your work environment and feel like a winner.'
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606816/lms-app/new-lms-website/clients/raymond-logo_ph4bul.png",
   },
   {
-    name:'Diploma in Hardware Networking',
-    img:'https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/diploma_hardware_networking.jpg',
-    desc:'Computer Hardware and Networking is an intriguing field in todayâ€™s world. The Advanced Diploma in hardware and Networking '
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606816/lms-app/new-lms-website/clients/Tech_Mahindra_New_Logo.svg_qfol0q.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606816/lms-app/new-lms-website/clients/portea-logo_whkrgu.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/Novotel_Logo_bjrntp.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/LOreal-Emblem_v3oyvn.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/Nestle-Logo_b2zzmw.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/925643839s_wf96bc.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/2560px-Max_Healthcare_logo.svg_hf9qnc.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/download_srxhrn.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/bata-logo-png-transparent_skbtkn.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/HDFC_Bank_Logo.svg_iumyrb.png",
+  },
+  {
+    link: "https://res.cloudinary.com/learnhat/image/upload/v1637606815/lms-app/new-lms-website/clients/Axis_Bank_logo_logotype_y3de8i.png",
+  },
+];
+
+const featuredCourses = [
+  {
+    name: "Essentials Of Business Communication",
+    img: "https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/business_communication.jpg",
+    desc: "Learn to communicate confidently, smartly and efficiently to find success in your work environment and feel like a winner.",
+  },
+  {
+    name: "Diploma in Hardware Networking",
+    img: "https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/diploma_hardware_networking.jpg",
+    desc: "Computer Hardware and Networking is an intriguing field in todayâ€™s world. The Advanced Diploma in hardware and Networking ",
     // offers students a comprehensive overview of the subject with all the necessary details. At the end of this course, students will be able to practice and demonstrate PC hardware, operating systems, fundamental and advanced networking, Cisco Router & Switch administration and different server administrations.'
   },
   {
-    name:'Diploma in Corporate Management',
-    img:'https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/diploma_corporate_management.jpg',
-    desc:'The course Diploma in Corporate Management (DICM) aims at training participants in fundamentals of Accounts,'
+    name: "Diploma in Corporate Management",
+    img: "https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/diploma_corporate_management.jpg",
+    desc: "The course Diploma in Corporate Management (DICM) aims at training participants in fundamentals of Accounts,",
     // basics of Tally.ERP 9, Direct and Indirect tax, Banking and Financial Management, Human Resource Management, and Marketing Management.On completion of the course, the participants will learn about various corporate processes and grow capable of finding placement opportunities as management interns or trainees.
-    
   },
   {
-    name:'Diploma in Hospitality Management',
-    img:'https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/diploma_hospitality_management.jpg',
-    desc:'A course of hospitality management focuses on the application of management principles in the field of Hospitality.'
+    name: "Diploma in Hospitality Management",
+    img: "https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/diploma_hospitality_management.jpg",
+    desc: "A course of hospitality management focuses on the application of management principles in the field of Hospitality.",
   },
-]
+];
 
 export const testimonialsData = [
   {
@@ -167,7 +119,7 @@ export const contact_data = [
     // phone: "033-46051324",
     // email: "info@orioncorporate.com",
   },
-  
+
   // {
   //   name: "Regional Office: Delhi",
   //   description:
@@ -180,59 +132,223 @@ export const contact_data = [
   // },
 ];
 
+// using
+
 export const imageSectionData1 = {
-  image: 'https://res.cloudinary.com/learnhat/image/upload/v1648198229/orion-new-website/orion-infinity/End_to_end_copy_2x_ershoi.png',
-  subTitle:'Orion Infinity HR Solutions providesavast array of HR Solutions that take your Organization one-notch up.'
-}
+  image:
+    "https://res.cloudinary.com/learnhat/image/upload/v1648198229/orion-new-website/orion-infinity/End_to_end_copy_2x_ershoi.png",
+  subTitle:
+    "Equipped with a Manpower license in UAE and RA license in India, Orion Infinity HR Solutions provides a vast array of HR Solutions across GCC countries that take your Organization to the next level.",
+};
 export const imageSectionData2 = {
-  image: 'https://res.cloudinary.com/learnhat/image/upload/v1648198241/orion-new-website/orion-infinity/Our_Innovative_Workforce_copy_2x_ndxbtr.png',
-  subTitle:'We are a firm believer in new thoughts and advanced workforce models. And this is the founding motto for Orion Infinity HR Solutions, wherein we deliver custom solutions to our clients for proven business results.'
-}
+  image:
+    "https://res.cloudinary.com/learnhat/image/upload/v1648198241/orion-new-website/orion-infinity/Our_Innovative_Workforce_copy_2x_ndxbtr.png",
+  subTitle:
+    "We are a firm believer in new thoughts and advanced workforce models. And this is the founding motto for Orion Infinity HR Solutions, wherein we deliver custom solutions across Permanent Outsourced Staffing, Temporary Outsourced Staffing, Recruitment and all other services to our clients for proven business results.",
+};
 
 export const formsData = [
   {
-      id:1,
-      image:'https://res.cloudinary.com/learnhat/image/upload/v1641207043/orion-new-website/iStock-1127921799_efated.jpg',
-      title:'Find your perfect job with us',
-      description: "Send us your CV and details, and get started with finding your perfect next job.",
-      buttonText:'Apply Now'
-      
+    id: 1,
+    image:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648295066/orion-new-website/orion-infinity/iStock-1293737085_vafyc9.jpg",
+    title: "Find your perfect job with us",
+    description:
+      "Send us your CV and details, and get started with finding your perfect next job.",
+    buttonText: "Apply Now",
   },
-  {   
-      id:2,
-      image:'https://res.cloudinary.com/learnhat/image/upload/v1641207042/orion-new-website/iStock-639819378_nsqhxt.jpg',
-      title:'Get the perfect HR solution for your company',
-      description:'We provide incredible, tailor-made staffing & manpower solutions for our customers',
-      buttonText:'Connect with Us'
-
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648295067/orion-new-website/orion-infinity/iStock-882453070_dvvcje.jpg",
+    title: "Get the perfect HR solution for your company",
+    description:
+      "We provide incredible, tailor-made staffing & manpower solutions for our customers",
+    buttonText: "Connect with Us",
   },
-]
+];
 
 export const numbersData = [
   {
-    number: "3,000+",
-    name: "Students sent Abroad",
-  },
-  {
     number: "5,00,000+",
-    name: "Students community",
+    name: "Employability Trainings Provided",
   },
   {
-    number: "100+",
-    name: "Skilling centers",
+    number: "10,000+",
+    name: "Staffing Associates",
+  },
+  {
+    number: "3000+",
+    name: "Corporate Tie-ups",
   },
 
   {
     number: "800+",
-    name: "Universities partnered with",
+    name: "University Tie-ups",
   },
 
   {
-    number: "3000+",
+    number: "100+",
     name: "Corporrate tie-ups for Students placement",
   },
-  // {
-  //   number: "2800+",
-  //   name: "Study Abroad Students",
-  // },
+  {
+    number: "90+",
+    name: "Job Roles in 26 Sectors",
+  },
+];
+
+export const staffingAndRecuritment = [
+  {
+    title: "Permanent Outsourced Staffing",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648266072/orion-infinity/staffing_requrement/employement-logo_be2oap.png",
+  },
+  {
+    title: "Temporary Outsourced Staffing",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648266277/orion-infinity/staffing_requrement/employability-logo_r9da8t.png",
+  },
+  {
+    title: "Flexi-Staffing",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648265776/orion-infinity/staffing_requrement/flexi_staffing_penwiz.png",
+  },
+
+  {
+    title: "Recruitment Solutions",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648265927/orion-infinity/staffing_requrement/requrement-solution_tzujv1.png",
+  },
+  {
+    title: "Gig Skills Improvement",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648266277/orion-infinity/staffing_requrement/employability-logo_r9da8t.png",
+  },
+  {
+    title: "Recruitment Process Outsourcing",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648267063/orion-infinity/staffing_requrement/requrement_process_out_sourcing_bqqagd.png",
+  },
+
+  {
+    title: "Payroll & Compliance Outsourcing",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648267181/orion-infinity/staffing_requrement/payroll_and_complaince_xcrdaj.png",
+  },
+];
+
+export const datawhyChoseInfinityHRSolution = [
+  {
+    name: "Huge Database",
+    desc: "We get you connected with prospective candidates across the globe, tailored to your requirement.",
+    image:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648267900/orion-infinity/whyChoseInfinityHRSolution/huge-database_qjm9cw.png",
+  },
+
+  {
+    name: "Industry Diversification",
+    desc: "We provide recruitment services to industries across all scales, nature of business, and needs.",
+    image:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648268031/orion-infinity/whyChoseInfinityHRSolution/industry-diversification_uhpvu7.png",
+  },
+
+  {
+    name: "Bilingual Recruitment Experts",
+    desc: "No matter the country or nationality, we have no linguistic barriers while selecting candidates for you.",
+    image:
+      "https://dcbdjixrxgopu.cloudfront.net/cglms/uploads/medias/courses/diploma_hospitality_management.jpg",
+  },
+
+  {
+    name: "Strong Reputation",
+    desc: "Our reputation speaks for ourselves. Our strong reputation has made us the most sought-after staffing and HR solution provider.",
+    image:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648268231/orion-infinity/whyChoseInfinityHRSolution/strong-reputation_wyp3xb.png",
+  },
+];
+
+export const dataThanksforLettingUsServeYou = [
+  {
+    title: "Healthcare",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648298742/orion-new-website/orion-infinity/Infosys_logo_wlfcea.png",
+  },
+  {
+    title: "Healthcare",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648298742/orion-new-website/orion-infinity/IBM_Logo_autlqu.png",
+  },
+  {
+    title: "Healthcare",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648298742/orion-new-website/orion-infinity/TCS_Logo_ts8xa4.png",
+  },
+  {
+    title: "Healthcare",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648298741/orion-new-website/orion-infinity/Wipro_logo_gvpuvc.png",
+  },
+  {
+    title: "Tech_Mahindra",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648271063/orion-infinity/thanksforLettingUsServeYou/Tech_Mahindra_New_Logo.svg_bfzwg0.png",
+  },
+
+  {
+    title: "LOreal",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648271303/orion-infinity/thanksforLettingUsServeYou/LOreal-Emblem_g5klgx.png",
+  },
+
+  {
+    title: "Nestle",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648271496/orion-infinity/thanksforLettingUsServeYou/Nestle-Logo_w2rykg.png",
+  },
+
+  {
+    title: "Axis_Bank",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648271610/orion-infinity/thanksforLettingUsServeYou/Axis_Bank_logo_logotype_sovxpa.png",
+  },
+  {
+    title: "HDFC_Bank",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648271665/orion-infinity/thanksforLettingUsServeYou/HDFC_Bank_Logo.svg_hnaqih.png",
+  },
+  {
+    title: "Applo Pharmesy",
+    icon: "https://res.cloudinary.com/learnhat/image/upload/v1648271729/orion-infinity/thanksforLettingUsServeYou/925643839s_algnnk.png",
+  },
+];
+
+export const dataSomeIndustryweExpertIn = [
+  {
+    title: "Healthcare",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648272266/orion-infinity/someIndustryweExpertIn/healthcare_zlt6gm.png",
+  },
+  {
+    title: "Retail",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648272345/orion-infinity/someIndustryweExpertIn/retail_qqemnm.png",
+  },
+  {
+    title: "BFSI",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648272428/orion-infinity/someIndustryweExpertIn/bfsi_qsdy7z.png",
+  },
+  {
+    title: "Logistics",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648272573/orion-infinity/someIndustryweExpertIn/logistic_ec5hss.png",
+  },
+  {
+    title: "Hospitality",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648272671/orion-infinity/someIndustryweExpertIn/hospitality_coue3s.png",
+  },
+  {
+    title: "E-Commerce",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648272814/orion-infinity/someIndustryweExpertIn/ecommarce_kl5fxy.png",
+  },
+  {
+    title: "Manufacturing",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648273065/orion-infinity/someIndustryweExpertIn/manfacturing_rjz1ln.png",
+  },
+  {
+    title: "Facility",
+    icon:
+      "https://res.cloudinary.com/learnhat/image/upload/v1648297339/orion-new-website/orion-infinity/Facility_smxmkp.svg",
+  },
 ];

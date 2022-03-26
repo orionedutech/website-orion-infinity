@@ -41,15 +41,16 @@ flex-direction: column;
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* align-content: center;
-    justify-content: center; */
-    width: 155px;
-    height: 155px;
+    /* align-content: center; */
+    justify-content: center; 
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
 }
 .item-blue-ic{
-    width: 70px;
-    height: 75px;
-    object-fit: fill;
+    width: 100px;
+    height: 85px;
+    object-fit: contain;
 }
 .text-blue-ic{
     color: var(--primary-cl);

@@ -10,10 +10,10 @@ const FormsSection = ({ data, title }) => {
 
   return (
     <div className="section-container">
-      <div className="section-title-cont">
+      {/* <div className="section-title-cont">
         <hr className="section-title-line" />
         <h3 className="section-title">{title}</h3>
-      </div>
+      </div> */}
 
       <div className="card-holder">
         {data.map((item) => {
@@ -23,7 +23,7 @@ const FormsSection = ({ data, title }) => {
                 <img src={item.image} alt="" />
               </div>
               <div className="ls-card-text-cont">
-                <h2 style={{ padding: "1.5rem" }} >{item.title}</h2>
+                <h2 style={{ padding: "1.5rem" }} className="title-xlrage" >{item.title}</h2>
                 <p className="p-text">{item.description}</p>
                 <div style={{ margin: "1.5rem" }}>
                   <OrangeButtonLarge

@@ -8,15 +8,17 @@ const Footer = () => {
       <footer className="bg-apna-blue">
         <div className="footer-box box-1">
           <img className="footer-logo" src={logo} alt="" />
+          
         </div>
+        
         <div className="footer-box box-2">
           <div className="sub-content-box">
-            <h5>Orion Infinity</h5>
-            <Link to="/">
+            {/* <h5>Orion Infinity</h5> */}
+            <Link to="/about-us">
               {" "}
               <p>About Us</p>
             </Link>
-            <Link to="/">
+            <Link to="/contact-us">
               {" "}
               <p>Contact Us</p>
             </Link>
@@ -24,40 +26,42 @@ const Footer = () => {
         </div>
         <div className="footer-box box-3">
           <div className="sub-content-box">
-            <h5>Our Programs</h5>
+            {/* <h5>Our Programs</h5> */}
 
             <Link to="/terms-and-conditions">
               {" "}
               <p>Terms & Conditions</p>{" "}
-            </Link>
-            <Link to="/refund-policy">
-              {" "}
-              <p>Refund Policy</p>{" "}
             </Link>
             <Link to="/privacy-policy">
               {" "}
               <p>Privacy Policy</p>{" "}
             </Link>
           </div>
+          
         </div>
         <div className="footer-box box-4">
           <div className="sub-content-box">
             <h5>Corporate Office</h5>
             <p>
-              Orion House, 28, Rajarhat Main Road,
-              <br /> Chinar Park, Kolkata, <br />
-              West Bengal - 700157{" "}
+            Orion Infinity HR Solutions FZE,
+              <br /> Sheikh Rashid Tower, ESO 27, 7th Floor,
+              <br /> Dubai World Trade Centre, <br />
+              Dubai, UAE{" "}
             </p>
           </div>
+          {/* <div className="sub-content-box">
+            <h5>Email</h5>
+            <p>info@orionedutech.com</p>
+          </div> */}
         </div>
       </footer>
       <div className="footer-bar-cont">
         <div className="footer-bar">
           <div className="flex1">
-            <p>© Orion Edutech Pvt. Ltd 2021 | All Rights Reserved</p>
+            <p>© Orion Infinity HR Solutions FZE | All Rights Reserved</p>
           </div>
           <div className="flex2">
-            <p>
+            {/* <p>
               <Link to="/terms-and-conditions"> Terms & Conditions </Link> |{" "}
             </p>
             <p>
@@ -67,7 +71,11 @@ const Footer = () => {
             <p>
               <Link to="/privacy-policy">Privacy Policy</Link> |{" "}
             </p>
-            <p>Sitemap </p>
+            <p>Sitemap </p> */}
+            {/* <div className="sub-content-box"> */}
+            {/* <h5>Email</h5> */}
+            <p>info@orioninfinityhr.com</p>
+          {/* </div> */}
           </div>
         </div>
       </div>

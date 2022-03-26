@@ -13,7 +13,7 @@ const GrayIcons = ({ csr, logos, title, alsoButton }) => {
         {logos.map((logo) => {
           return (
             <div className="sub-cont">
-              <img className="item" src={logo.link} alt="" />
+              <img className="item" src={logo.icon} alt="" />
             </div>
           );
         })}

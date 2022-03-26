@@ -14,14 +14,16 @@ import {
 import { BigImageRightSection1 } from "../../Sections-Dumb";
 import {
   homePageClientsAndPartners,
-  keysector_icons,
-  featuredCourses,
   testimonialsData,
-  contact_data,
   imageSectionData1,
   imageSectionData2,
   formsData,
   numbersData,
+  staffingAndRecuritment,
+  datawhyChoseInfinityHRSolution,
+  dataThanksforLettingUsServeYou,
+  dataSomeIndustryweExpertIn
+  
 } from "./data";
 
 const Home = () => {
@@ -31,10 +33,10 @@ const Home = () => {
         <div className="home-data-subcont-right">
           <div className="inner-cont">
             <h2 className="hero-title-1">Orion Infinity HR Solutions</h2>
-            <h1 className="hero-title-2">meets all your HR needs!</h1>
+            <h1 className="hero-title-2">meets all your HR, Recruitment and Manpower Needs!</h1>
           </div>
           <a className="main-href" href="#9">
-            <ButtonKnowMoreHero text={"Discover nore"} lgtext />
+            <ButtonKnowMoreHero text={"Discover more"} lgtext />
           </a>
         </div>
       </div>
@@ -50,11 +52,10 @@ const Home = () => {
         image={"bg-two"}
         title={"Our Innovative Workforce Solutions"}
       />
-      <BlueIcons dataIcons={keysector_icons} title={"Staffing & Recruitment"} />
-      <NumberStatsDisplay title={'Our Success'} data={numbersData} />
+      <BlueIcons dataIcons={staffingAndRecuritment} title={"Staffing & Recruitment"} />
       <FeaturedSection
         title={"Why Choose Orion Infinity HR Solutions?"}
-        data={featuredCourses}
+        data={datawhyChoseInfinityHRSolution}
         subTitle={
           "Our global footprint and expertise is the differentiating factor for choosing us for your HR requirements."
         }
@@ -62,24 +63,18 @@ const Home = () => {
       />
 
       <GrayIcons
-        logos={homePageClientsAndPartners}
+        logos={dataThanksforLettingUsServeYou}
         title={"Thank you for letting us serve you!"}
       />
-      <TestimonialsSection
-        data={testimonialsData}
-        title={"What do our happy Clients say?"}
-      />
+      <NumberStatsDisplay title={'Our Success'} data={numbersData} />
+
       <BlueIcons
-        dataIcons={keysector_icons}
+        dataIcons={dataSomeIndustryweExpertIn}
         title={"Some of the industries we’re experts in"}
       />
-      {/* <ContactSection data={contact_data} title={"Contact"} /> */}
 
-      {/* <FocusAreaSection />
-      <OurSuccess/>
-      
-      */}
-    </>
+
+     </>
   );
 };
 export default Home;

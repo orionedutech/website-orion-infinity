@@ -12,7 +12,7 @@ const FeaturedSection = ({ title, data, subTitle, alsoButton }) => {
       <div className="card-holder">
         {data.map((item) => {
           return (
-            <CourseCard img={item.img} name={item.name} desc={item.desc} />
+            <CourseCard img={item.image} name={item.name} desc={item.desc} />
           );
         })}
       </div>

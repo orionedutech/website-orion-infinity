@@ -1,5 +1,5 @@
 .course-card-cont {
-  height: 24.5rem;
+  height: 23.5rem;
   background-color: white;
   width: 16rem;
 }
@@ -11,7 +11,7 @@
     padding: 0.5rem 0.9rem;
     padding-top: 1.5rem;
     font-size: 1.3rem;
-    height: 3.5rem;
+    height: 3rem;
     line-height: 1.8rem;
 }
 .course-card-desc{

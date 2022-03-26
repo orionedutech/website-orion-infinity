@@ -26,7 +26,7 @@ export const BlueIconsSection = ({ data }) => {
               src={item.icon ? item.icon : item.link}
               alt=""
             />
-            <h5 className="text-blue-ic">{item.name}</h5>
+            <h5 className="text-blue-ic">{item.name ? item.name : item.title}</h5>
           </div>
         );
       })}
