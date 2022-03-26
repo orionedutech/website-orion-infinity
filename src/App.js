@@ -1,7 +1,7 @@
 import "./App.css";
 import "./default.css";
 import { useState, useEffect } from "react";
-import {Home, AboutUs, ContactUs} from './Pages'
+import {Home, AboutUs, ContactUs, PrivacyPolicy, TandC} from './Pages'
 // import { Footer, NavBar, MobileNavbar } from "./Components";
 import {Footer, NavBar, MobileNavbar} from './Components'
 import { Route, Routes, useLocation } from "react-router-dom";
@@ -38,6 +38,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-and-conditions" element={<TandC />} />
       </Routes>
       <Footer />
     </div>

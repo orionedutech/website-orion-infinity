@@ -23,9 +23,9 @@ const FormsSection = ({ data, title }) => {
                 <img src={item.image} alt="" />
               </div>
               <div className="ls-card-text-cont">
-                <h2 style={{ padding: "1.5rem" }} className="title-xlrage" >{item.title}</h2>
+                <h2  className="title-xlrage" >{item.title}</h2>
                 <p className="p-text">{item.description}</p>
-                <div style={{ margin: "1.5rem" }}>
+                <div className="some-bt-cont">
                   <OrangeButtonLarge
                     text={item.buttonText}
                     clickFunc={() => setFormDisplay(item.id)}

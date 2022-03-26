@@ -59,23 +59,23 @@
 }
 @media (max-width: 500px) {
   .home {
-    height: 45vh;
+    height: 40vh;
     /* background-size: 100% 100%; */
     background-repeat: no-repeat;
-    background-position: 0% 20%;
-    background-position: center;
+    background-position: 45%;
+    /* background-position: center; */
   }
   .home-data-subcont-right{
     padding: 0.4rem;
     width: 45%;
   }
   .hero-title-1{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1rem;
     font-weight: 500;
   }
   .hero-title-2{
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 500;
   }

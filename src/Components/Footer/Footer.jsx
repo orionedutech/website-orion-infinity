@@ -8,9 +8,8 @@ const Footer = () => {
       <footer className="bg-apna-blue">
         <div className="footer-box box-1">
           <img className="footer-logo" src={logo} alt="" />
-          
         </div>
-        
+
         <div className="footer-box box-2">
           <div className="sub-content-box">
             {/* <h5>Orion Infinity</h5> */}
@@ -22,12 +21,6 @@ const Footer = () => {
               {" "}
               <p>Contact Us</p>
             </Link>
-          </div>
-        </div>
-        <div className="footer-box box-3">
-          <div className="sub-content-box">
-            {/* <h5>Our Programs</h5> */}
-
             <Link to="/terms-and-conditions">
               {" "}
               <p>Terms & Conditions</p>{" "}
@@ -37,13 +30,24 @@ const Footer = () => {
               <p>Privacy Policy</p>{" "}
             </Link>
           </div>
-          
+        </div>
+        <div className="footer-box box-3">
+          <div className="sub-content-box">
+            {/* <h5>Our Programs</h5> */}
+            <a href="https://orionedutech.in/">
+              <p>Orion Edutech</p>
+            </a>
+          </div>
+          <div className="sub-content-box">
+            <h5>Email</h5>
+            <p>info@orionedutech.com</p>
+          </div>
         </div>
         <div className="footer-box box-4">
           <div className="sub-content-box">
             <h5>Corporate Office</h5>
             <p>
-            Orion Infinity HR Solutions FZE,
+              Orion Infinity HR Solutions FZE,
               <br /> Sheikh Rashid Tower, ESO 27, 7th Floor,
               <br /> Dubai World Trade Centre, <br />
               Dubai, UAE{" "}
@@ -74,8 +78,8 @@ const Footer = () => {
             <p>Sitemap </p> */}
             {/* <div className="sub-content-box"> */}
             {/* <h5>Email</h5> */}
-            <p>info@orioninfinityhr.com</p>
-          {/* </div> */}
+            {/* <p>info@orioninfinityhr.com</p> */}
+            {/* </div> */}
           </div>
         </div>
       </div>

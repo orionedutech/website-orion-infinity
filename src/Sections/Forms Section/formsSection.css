@@ -8,7 +8,11 @@
 }
 .title-xlrage{
   font-size: 2rem;
-  line-height: 2.2REM;
+  line-height: 2.2rem;
+  padding: 1.5rem;
+}
+.some-bt-cont{
+  margin: 1.5rem;
 }
 .cont-dev-card-img-cont img {
     width: 100%;
@@ -28,6 +32,14 @@
     }
     .ls-card-text-cont{
       padding: 1.5rem;
+  }
+  .title-xlrage{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 1rem;
+  }
+  .some-bt-cont{
+    margin: 1rem 0;
   }
   }
 

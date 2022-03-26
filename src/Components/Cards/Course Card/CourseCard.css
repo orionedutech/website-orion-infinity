@@ -36,7 +36,7 @@
 @media(max-width:460px){
   .course-card-cont {
     /* width: 15rem; */
-    height: 25rem;
+    height: 20rem;
   }
   .course-card-desc{
     font-size: 0.8rem;

@@ -40,18 +40,18 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <FormsSection title={"Forms"} data={formsData} />
+      <BigImageRightSection1
+        subTitle={imageSectionData2.subTitle}
+        image={"bg-two"}
+        title={"Our Innovative Workforce Solutions"}
+      />
       <BigImageRight
         subTitle={imageSectionData1.subTitle}
         image={"bg-one"}
         title={"End-To-End Human Resource Solutions"}
         btn
       />
-      <BigImageRightSection1
-        subTitle={imageSectionData2.subTitle}
-        image={"bg-two"}
-        title={"Our Innovative Workforce Solutions"}
-      />
+     
       <BlueIcons dataIcons={staffingAndRecuritment} title={"Staffing & Recruitment"} />
       <FeaturedSection
         title={"Why Choose Orion Infinity HR Solutions?"}
@@ -72,6 +72,7 @@ const Home = () => {
         dataIcons={dataSomeIndustryweExpertIn}
         title={"Some of the industries we’re experts in"}
       />
+      <FormsSection title={"Forms"} data={formsData} />
 
 
      </>

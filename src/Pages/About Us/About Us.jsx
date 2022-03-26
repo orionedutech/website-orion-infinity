@@ -45,7 +45,7 @@ const AboutUs = () => {
         title={"Our Innovations"}
         theme={'light'}
       />
-      <Team title={'Team'} data={teamdata}/>
+      <Team title={'Our Leadership'} data={teamdata}/>
     </>
   );
 };
