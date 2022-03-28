@@ -1,4 +1,6 @@
-import { FormJob, FormCompany } from "../../Sections/Forms Section/Forms Section";
+// import { FormJob, FormCompany } from "../../Sections/Forms Section/Forms Section";
+import {FormJob, FormCompany} from '../Forms'
+
 
 const FormSubSection = () => {
   return (
