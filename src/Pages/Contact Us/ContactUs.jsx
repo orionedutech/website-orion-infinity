@@ -151,6 +151,29 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+      <div className=" card-holder-full-new">
+        <div className="contactus-sub-cont">
+          <div className="contactus-sub-cont-1 card-landscape">
+            <div className="contactus-boxs">
+              <h3 className="cl-black">Germany (Frankfurt) Office:</h3>
+              <p className="cl-black">
+                60322 Frankfurt am Main Im Trutz 
+              </p>
+              <p className="cl-black">Frankfurt 29, Germany</p>
+            </div>
+          </div>
+          <div className="contactus-sub-cont-2 card-landscape">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10231.930215236149!2d8.666352392206827!3d50.12404842090499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0eb45bc2543b%3A0x1c224353694a9670!2s60322%20Frankfurt%2C%20Germany!5e0!3m2!1sen!2sin!4v1648455997791!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              allowfullscreen=""
+              title="any"
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

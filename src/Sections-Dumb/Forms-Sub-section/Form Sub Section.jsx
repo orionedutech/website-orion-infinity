@@ -2,7 +2,7 @@ import { FormJob, FormCompany } from "../../Sections/Forms Section/Forms Section
 
 const FormSubSection = () => {
   return (
-    <div id="11" >
+    <div id="12" >
     <div className="section-container">
       <div className="section-title-cont">
         <hr className="section-title-line" />
@@ -14,7 +14,7 @@ const FormSubSection = () => {
       </div>
       
     </div>
-    <div id="12" className="section-container">
+    <div id="11" className="section-container">
       <div className="section-title-cont">
         <hr className="section-title-line" />
         <h3 className="section-title">Know more about our Solutions</h3>

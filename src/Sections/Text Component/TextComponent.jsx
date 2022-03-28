@@ -50,9 +50,9 @@ const TextComponent = ({
       </div>
       {aboutUsButton && (
         <div className="btn-cont-center">
-          <Link to="/#12">
+          <a href="https://www.orioninfinityhr.com/#12">
             <OrangeButtonLarge text="Let's Connect" />
-          </Link>
+          </a>
         </div>
       )}
     </div>
