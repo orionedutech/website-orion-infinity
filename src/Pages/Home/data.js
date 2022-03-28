@@ -171,7 +171,7 @@ export const formsData = [
 export const numbersData = [
   {
     number: "5,00,000+",
-    name: "Employability Trainings Provided",
+    name: "Jobs provided in last 16 years",
   },
   {
     number: "10,000+",
@@ -185,11 +185,6 @@ export const numbersData = [
   {
     number: "800+",
     name: "University Tie-ups",
-  },
-
-  {
-    number: "100+",
-    name: "Corporrate tie-ups for Students placement",
   },
   {
     number: "90+",

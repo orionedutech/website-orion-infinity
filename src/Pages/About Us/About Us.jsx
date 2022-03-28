@@ -19,6 +19,7 @@ const AboutUs = () => {
         data={textdata}
         textTitle
         button
+        aboutUsButton
       />
        <AboutUsLeftData
         subTitle={'Our mission at Orion Infinity HR Solutions is to be the most preferred and reliable end-to-end HR solutions company focused on providing exceptional services, qualitative recruitment, and staffing with quick customer service.'}

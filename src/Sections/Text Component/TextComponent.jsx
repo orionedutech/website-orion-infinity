@@ -1,7 +1,15 @@
 import "./textComponent.css";
 import { OrangeButtonLarge } from "../../Components/Buttons";
+import { Link } from "react-router-dom";
 
-const TextComponent = ({ title, mode, data, textTitle, button }) => {
+const TextComponent = ({
+  title,
+  mode,
+  data,
+  textTitle,
+  button,
+  aboutUsButton,
+}) => {
   return (
     <div
       className={
@@ -40,11 +48,13 @@ const TextComponent = ({ title, mode, data, textTitle, button }) => {
           );
         })}
       </div>
-      <div className="btn-cont-center" >
-        <a href="#11">
-        <OrangeButtonLarge text="Let's Connect"/>
-        </a>
-      </div>
+      {aboutUsButton && (
+        <div className="btn-cont-center">
+          <Link to="/#12">
+            <OrangeButtonLarge text="Let's Connect" />
+          </Link>
+        </div>
+      )}
     </div>
   );
 };
