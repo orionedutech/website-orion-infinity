@@ -1,9 +1,9 @@
 import "./App.css";
 import "./default.css";
 import { useState, useEffect } from "react";
-import {Home, AboutUs, ContactUs, PrivacyPolicy, TandC} from './Pages'
+import { Home, AboutUs, ContactUs, PrivacyPolicy, TandC } from "./Pages";
 // import { Footer, NavBar, MobileNavbar } from "./Components";
-import {Footer, NavBar, MobileNavbar} from './Components'
+import { Footer, NavBar, MobileNavbar } from "./Components";
 import { Route, Routes, useLocation } from "react-router-dom";
 
 function App() {
@@ -21,7 +21,10 @@ function App() {
   }
 
   useEffect(() => {
-    scrollToTop();
+    if (window.location.hash) {
+    } else {
+      scrollToTop();
+    }
   }, [pathname]);
 
   return (

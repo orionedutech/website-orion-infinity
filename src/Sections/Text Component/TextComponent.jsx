@@ -49,7 +49,7 @@ const TextComponent = ({
       </div>
       {aboutUsButton && (
         <div className="btn-cont-center">
-          <a href="https://www.orioninfinityhr.com/#12">
+          <a href="https://www.orioninfinityhr.com/#11">
             <OrangeButtonLarge text="Let's Connect" />
           </a>
         </div>
