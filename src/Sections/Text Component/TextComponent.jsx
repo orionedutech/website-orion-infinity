@@ -1,6 +1,5 @@
 import "./textComponent.css";
 import { OrangeButtonLarge } from "../../Components/Buttons";
-import { Link } from "react-router-dom";
 
 const TextComponent = ({
   title,
